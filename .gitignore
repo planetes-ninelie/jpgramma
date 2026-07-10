@@ -4,6 +4,7 @@ node_modules/
 # VitePress / VuePress
 .vitepress/cache/
 .vitepress/dist/
+.vuepress/cache/
 .vuepress/.cache/
 .vuepress/.temp/
 .vuepress/dist/
