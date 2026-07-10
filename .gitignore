@@ -1,13 +1,15 @@
 # Dependencies
 node_modules/
 
-# VitePress / VuePress
-.vitepress/cache/
-.vitepress/dist/
-.vuepress/cache/
-.vuepress/.cache/
-.vuepress/.temp/
-.vuepress/dist/
+# VitePress / VuePress（路径相对 web/）
+web/.vitepress/
+web/.vuepress/.cache/
+web/.vuepress/.temp/
+web/.vuepress/dist/
+web/.vuepress/cache/
+
+# 迁移遗留的重复静态资源（正式资源在 web/.vuepress/public/）
+web/public/
 
 # Build output
 dist/
