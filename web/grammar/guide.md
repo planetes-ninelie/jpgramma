@@ -1,0 +1,86 @@
+---
+title: 日语语法指南
+outline: deep
+permalink: /grammar/guide/
+---
+
+> 译者注：本教程原文为[Tae Kim 所写的《Japanese Grammar Guide》](http://guidetojapanese.org/learn/grammar)，使用[「署名-非商业性使用-相同方式共享」的创作公用许可](http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.zh)发布，本译本同样继承了此项许可。关于译者 pizzamx 的更多信息，请[点击这里](http://wokanxing.info)。译稿不足之处，欢迎[提出意见](https://github.com/pizzamx/jpgramma)或[来信讨论](mailto:root@wokanxing.info)。
+
+我写这个指南是为了能够帮大家以一种直观的方法学习日语，从日语而非英语的角度出发把语法讲明白。
+
+本指南使用创作共用许可发布，您可以向非商业用户自由地复制和分发它。
+
+## 目录
+
+1. [简介](/grammar/introduction/)
+2. [日文书写系统](/grammar/writing/)
+  - [平假名](/grammar/hiragana/)
+    - [平假名练习](/grammar/hiragana-ex/)
+  - [片假名](/grammar/katakana/)
+    - [片假名练习](/grammar/katakana-ex/)
+  - [汉字](/grammar/kanji/)
+3. [基本语法](/grammar/basic/)
+  - [状态表示](/grammar/stateofbeing/)
+    - [状态表示练习](/grammar/stateofbeing-ex/)
+  - [助词介绍（は、も、が）](/grammar/particlesintro/)
+    - [「は、も、が」助词练习](/grammar/particlesintro-ex/)
+  - [形容词](/grammar/adjectives/)
+    - [形容词练习](/grammar/adjectives-ex/)
+  - [动词基础](/grammar/verbs/)
+    - [动词练习](/grammar/verbs-ex/)
+  - [动词的否定式](/grammar/negativeverbs/)
+    - [动词否定活用练习](/grammar/negativeverbs-ex/)
+  - [过去形](/grammar/past-tense/)
+    - [动词过去形练习](/grammar/pasttense-ex/)
+  - [与动词一起使用的助词（を、に、へ、で）](/grammar/verbparticles/)
+  - [他动词和自动词](/grammar/in-transitive/)
+  - [关系从句和语序](/grammar/clause/)
+  - [与名词相关的助词（と、や、とか、の）](/grammar/nounparticles/)
+  - [副词和用于结束句子的助词](/grammar/adverbs/)
+4. [语法精要](/grammar/essential/)
+  - [敬语和动词词根（～です、～ます）](/grammar/polite/)
+  - [称呼别人](/grammar/people/)
+  - [提问词（か）](/grammar/question/)
+  - [复合句（て形、から、ので、のに、が、けど、し、～たりする）](/grammar/compound/)
+  - [て形的其他用法 （～ている、～てある、～ておく、～ていく、～てくる）](/grammar/teform/)
+  - [可能形](/grammar/potential/)
+  - [合用する、なる和助词に （～[よう]になる／する）](/grammar/surunaru/)
+  - [条件语（「如果」）（と、なら、ば、たら）](/grammar/conditionals/)
+  - [表达「必须」或「不得不」 （～だめ、～いけない、～ならない、～ても）](/grammar/must/)
+  - [希望和建议 （たい、欲しい、意向形、～たらどう）](/grammar/desire/)
+  - [将关系从句作为宾语（と、って）](/grammar/actionclause/)
+  - [定义和描述 （という）](/grammar/define/)
+  - [试和尝试（～てみる、意向形 + とする）](/grammar/try/)
+  - [授受动词 （あげる、やる、くれる、もらう）](/grammar/favors/)
+  - [做出请求 （～ください、～ちょうだい、～なさい、命令形）](/grammar/requests/)
+  - [数字和计数](/grammar/numbers/)
+  - [口语习惯及俚语](/grammar/slang/)
+  - [复习以及更多的句尾助词](/grammar/sentence-ending/)
+5. [特定的表达方式](/grammar/specialexpressions/)
+  - [使役动词和被动词](/grammar/causepass/)
+  - [尊敬语和谦逊语](/grammar/honorific/)
+  - [无意的举动（～てしまう、～ちゃう／～じゃう）](/grammar/unintended/)
+  - [通用名词的特殊用法 （こと、ところ、もの）](/grammar/genericnouns/)
+  - [不同程度的确定性（かもしれない、でしょう、だろう）](/grammar/certainty/)
+  - [表示数量 （だけ、のみ、しか、ばかり、すぎる、数量 + も、ほど、さ）](/grammar/amount/)
+  - [表达相似性或传闻的不同说法（よう、～みたい、～そう、～そうだ、～らしい、～っぽい）](/grammar/similarity/)
+  - [运用「方」和「よる」来做比较等（より、の方、词根 ＋ 方、によって、によると）](/grammar/comparison/)
+  - [表达某件事容易做或难做（～やすい、～にくい）](/grammar/easyhard/)
+  - [更多的否定动词 （ないで、ず、～ん、ぬ）](/grammar/negativeverbs-2/)
+  - [假设和总结 （わけ、～とする）](/grammar/reasoning/)
+  - [表达跟时间相关的动作 （ばかり、とたんに、ながら、まくる）](/grammar/timeactions/)
+  - [保持现状（まま、っぱなし）](/grammar/nochange/)
+6. [高级话题](/grammar/advanced/)
+  - [正式的表达方法 （である、ではない）](/grammar/formal/)
+  - [事情本应该这样 （はず、べき、べく、べからず）](/grammar/should/)
+  - [表达最低期望（でさえ、ですら、おろか）](/grammar/even/)
+  - [表现出的迹象 （～がる、ばかり、～めく）](/grammar/signs/)
+  - [不可行的正式表达方法（～ざるを得ない、やむを得ない、～かねる）](/grammar/feasibility/)
+  - [趋势 （～がち、～つつ、きらいがある）](/grammar/tendency/)
+  - [高级意向形 （まい、であろう、かろう）](/grammar/volitional-2/)
+  - [被某物所覆盖 （だらけ、まみれ、ずくめ）](/grammar/covered/)
+  - [动作时间相关的高级话题（が早いか、や否や、そばから）](/grammar/immedate/)
+  - [其他（思いきや、がてら、あげく）](/grammar/other/)
+7. [目次](/grammar/appendix/)
+
+This work is released under a [Creative Commons Attribution-Noncommercial-Share Alike License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
