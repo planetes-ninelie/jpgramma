@@ -1,9 +1,12 @@
 # Dependencies
 node_modules/
 
-# VitePress
+# VitePress / VuePress
 .vitepress/cache/
 .vitepress/dist/
+.vuepress/.cache/
+.vuepress/.temp/
+.vuepress/dist/
 
 # Build output
 dist/
