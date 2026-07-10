@@ -1,0 +1,62 @@
+name: Crawl Content
+
+on:
+  schedule:
+    # 北京时间每天凌晨 4:00（UTC 20:00）
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: crawler/requirements.txt
+
+      - name: Install crawler dependencies
+        run: pip install -r crawler/requirements.txt
+
+      - name: Run crawler
+        run: python crawler/scrape.py
+
+      - name: Check for content changes
+        id: diff
+        run: |
+          shopt -s nullglob
+          status=$(git status --porcelain -- web/grammar/*.md web/.vuepress/data/)
+          if [ -z "$status" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "内容无更新，跳过提交与构建。"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "检测到内容更新："
+            echo "$status"
+          fi
+
+      - name: Commit and push updates
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- web/grammar/*.md web/.vuepress/data
+          git commit -m "$(cat <<'EOF'
+          chore: 自动更新爬虫内容
+
+          由定时任务从源站抓取最新语法内容。
+          EOF
+          )"
+          git push
