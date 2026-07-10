@@ -1,0 +1,696 @@
+/* 日语语法站点自定义样式 */
+
+:root {
+  --jp-font: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  --sumbox-bg: color-mix(in srgb, var(--vp-c-brand-1) 8%, var(--vp-c-bg-soft));
+  --sumbox-border: color-mix(in srgb, var(--vp-c-brand-1) 45%, transparent);
+  --jp-word-fg: #fff;
+  --jp-word-bg: #24ade2;
+  --jp-word-bg-hover: #0092d1;
+  --jp-word-border: transparent;
+  --jp-kana-head-bg: color-mix(in srgb, #ffffdd 55%, var(--vp-c-bg-soft));
+  --jp-kana-empty-bg: color-mix(in srgb, var(--vp-c-bg-mute) 70%, transparent);
+  --jp-kana-vowel-bg: color-mix(in srgb, var(--vp-c-brand-1) 14%, var(--vp-c-bg-soft));
+  --jp-kana-vowel-fg: var(--vp-c-brand-1);
+}
+
+[data-theme="dark"] {
+  --sumbox-bg: color-mix(in srgb, var(--vp-c-brand-1) 22%, var(--vp-c-bg-mute));
+  --sumbox-border: color-mix(in srgb, var(--vp-c-brand-1) 58%, transparent);
+  --jp-word-fg: #e6edf3;
+  --jp-word-bg: color-mix(in srgb, var(--vp-c-brand-1) 30%, var(--vp-c-bg-mute));
+  --jp-word-bg-hover: color-mix(in srgb, var(--vp-c-brand-1) 42%, var(--vp-c-bg-mute));
+  --jp-word-border: color-mix(in srgb, var(--vp-c-brand-1) 45%, transparent);
+  --jp-kana-head-bg: color-mix(in srgb, var(--vp-c-brand-1) 22%, var(--vp-c-bg-mute));
+  --jp-kana-empty-bg: color-mix(in srgb, var(--vp-c-bg-mute) 80%, var(--vp-c-bg-soft));
+  --jp-kana-vowel-bg: color-mix(in srgb, var(--vp-c-brand-1) 28%, var(--vp-c-bg-mute));
+  --jp-kana-vowel-fg: color-mix(in srgb, var(--vp-c-brand-1) 50%, #e2e8f0);
+}
+
+.vp-doc {
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+/* 日语词汇（原站 span.popup） */
+.plume-content .jp-word,
+.vp-doc .jp-word,
+.plume-content span.jp-word,
+.vp-doc span.jp-word {
+  font-family: var(--jp-font);
+  cursor: help;
+  text-decoration: none;
+  color: var(--jp-word-fg);
+  background: var(--jp-word-bg);
+  border: 1px solid var(--jp-word-border);
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+
+.plume-content .jp-word:hover,
+.vp-doc .jp-word:hover,
+.plume-content span.jp-word:hover,
+.vp-doc span.jp-word:hover {
+  text-decoration: none;
+  background: var(--jp-word-bg-hover);
+}
+
+/* 语法强调（原站 em / em .popup）：橙色粗下划线 */
+.plume-content em,
+.vp-doc em,
+.plume-content em .jp-word,
+.vp-doc em .jp-word {
+  border-bottom: 5px solid rgb(255, 119, 51);
+  font-style: normal;
+}
+
+.jp-word-tooltip {
+  position: fixed;
+  background: #444;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  z-index: 9999;
+  pointer-events: none;
+  max-width: 320px;
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* 语法要点摘要盒（原站 sumbox） */
+.plume-content .sumbox,
+.vp-doc .sumbox {
+  background: var(--sumbox-bg);
+  border: 2px dashed var(--sumbox-border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--vp-c-brand-1) 12%, transparent);
+}
+
+.plume-content .sumbox-title,
+.vp-doc .sumbox-title {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  font-size: 1.08rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--sumbox-border);
+}
+
+.plume-content .sumbox--center,
+.vp-doc .sumbox--center {
+  text-align: center;
+}
+
+.plume-content .jp-answer-show,
+.plume-content .jp-answer-hide,
+.plume-content .jp-answer-toggle,
+.plume-content .jp-column-toggle,
+.vp-doc .jp-answer-show,
+.vp-doc .jp-answer-hide,
+.vp-doc .jp-answer-toggle,
+.vp-doc .jp-column-toggle {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.plume-content .jp-answer-show:hover,
+.plume-content .jp-answer-hide:hover,
+.plume-content .jp-answer-toggle:hover,
+.plume-content .jp-column-toggle:hover,
+.vp-doc .jp-answer-show:hover,
+.vp-doc .jp-answer-hide:hover,
+.vp-doc .jp-answer-toggle:hover,
+.vp-doc .jp-column-toggle:hover {
+  text-decoration: underline;
+}
+
+.plume-content .sumbox ul,
+.vp-doc .sumbox ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.plume-content .sumbox ol,
+.vp-doc .sumbox ol {
+  margin: 0.5rem 0 0;
+  padding-left: 1.5em;
+  list-style-position: outside;
+  counter-reset: none;
+}
+
+.plume-content .sumbox ul > li,
+.vp-doc .sumbox ul > li {
+  margin: 0.65rem 0;
+  padding: 0;
+  background: none !important;
+  border: none !important;
+  border-radius: 0;
+  list-style: disc;
+}
+
+.plume-content .sumbox ol > li,
+.vp-doc .sumbox ol > li {
+  position: static;
+  margin: 0.65rem 0;
+  padding: 0 0 0 0.25em;
+  background: none !important;
+  border: none !important;
+  border-radius: 0;
+  list-style: decimal;
+  counter-increment: none;
+}
+
+.plume-content .sumbox li::before,
+.vp-doc .sumbox li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* 例句无序列表：整体相对正文缩进（日语与翻译同属一块） */
+.plume-content ul,
+.vp-doc ul {
+  padding-left: 2.5em;
+  margin: 0.75rem 0 1rem;
+}
+
+.plume-content ul > li,
+.vp-doc ul > li {
+  margin: 0.5rem 0;
+  list-style: disc;
+  list-style-position: outside;
+}
+
+/* 例句列表增强 */
+.plume-content ol > li,
+.vp-doc ol > li {
+  position: relative;
+  margin: 0.65rem 0;
+  padding: 0.75rem 1rem 0.75rem 3.6em;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border-left: 3px solid var(--vp-c-brand-1);
+  list-style: none;
+  counter-increment: example;
+}
+
+.plume-content ol,
+.vp-doc ol {
+  counter-reset: example;
+  padding-left: 0;
+}
+
+.plume-content ol > li::before,
+.vp-doc ol > li::before {
+  content: '例 ' counter(example);
+  position: absolute;
+  left: 1rem;
+  top: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  margin-right: 0;
+  vertical-align: middle;
+}
+
+/* 任意 li 内的嵌套 ul/ol：统一缩进（覆盖所有排列组合与层级） */
+.plume-content li > ul,
+.plume-content li > ol,
+.vp-doc li > ul,
+.vp-doc li > ol {
+  margin: 0.35rem 0 0.15rem;
+  padding-left: 1.5em;
+  list-style-position: outside;
+}
+
+.plume-content li > ul,
+.vp-doc li > ul {
+  list-style-type: disc;
+}
+
+.plume-content li > ol,
+.vp-doc li > ol {
+  list-style-type: decimal;
+  counter-reset: none;
+}
+
+/* 嵌套列表项：不套用例句卡片 / sumbox 顶层的特殊样式 */
+.plume-content li ul > li,
+.plume-content li ol > li,
+.vp-doc li ul > li,
+.vp-doc li ol > li {
+  position: static;
+  margin: 0.35rem 0;
+  padding: 0;
+  background: none !important;
+  border: none !important;
+  border-radius: 0;
+  counter-increment: none;
+}
+
+.plume-content li ul > li,
+.vp-doc li ul > li {
+  list-style-type: disc;
+}
+
+.plume-content li ol > li,
+.vp-doc li ol > li {
+  list-style-type: decimal;
+}
+
+.plume-content li ul > li::before,
+.plume-content li ol > li::before,
+.vp-doc li ul > li::before,
+.vp-doc li ol > li::before {
+  content: none !important;
+  display: none !important;
+  position: static;
+}
+
+/* 例句：日语与中文翻译上下对照（换行后与第一行内容左对齐，不跑到 marker 下方） */
+.plume-content ul > li .jp-trans,
+.vp-doc ul > li .jp-trans,
+.plume-content ol > li .jp-trans,
+.vp-doc ol > li .jp-trans,
+.plume-content p .jp-trans,
+.vp-doc p .jp-trans {
+  display: block;
+  margin: 0.25em 0 0;
+  padding: 0;
+  text-indent: 0;
+  color: var(--vp-c-text-2);
+  font-family: inherit;
+}
+
+/* 代码块 */
+.vp-doc div[class*='language-'],
+.vp-doc pre {
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: 0 1px 4px color-mix(in srgb, var(--vp-c-brand-1) 6%, transparent);
+}
+
+.vp-doc :not(pre) > code {
+  font-family: var(--vp-font-family-mono);
+  padding: 0.15em 0.45em;
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  font-size: 0.9em;
+}
+
+/* 表格 */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.55rem 0.85rem;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* 特殊表格：假名表 / 活用表 / 练习表 / 布局表 */
+.plume-content .jp-kana-table,
+.vp-doc .jp-kana-table,
+.plume-content .jp-grammar-table,
+.vp-doc .jp-grammar-table,
+.plume-content .jp-practice-table,
+.vp-doc .jp-practice-table,
+.plume-content .jp-layout-table,
+.vp-doc .jp-layout-table {
+  display: table;
+  max-width: 100%;
+  font-size: 0.95em;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+}
+
+.plume-content .jp-kana-table,
+.vp-doc .jp-kana-table,
+.plume-content .jp-grammar-table,
+.vp-doc .jp-grammar-table,
+.plume-content .jp-practice-table,
+.vp-doc .jp-practice-table {
+  width: 100%;
+}
+
+.plume-content .jp-layout-table,
+.vp-doc .jp-layout-table {
+  width: auto;
+  background: transparent;
+}
+
+.plume-content .jp-kana-table caption,
+.vp-doc .jp-kana-table caption,
+.plume-content .jp-grammar-table caption,
+.vp-doc .jp-grammar-table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-2);
+}
+
+.plume-content .jp-kana-table th,
+.plume-content .jp-kana-table td,
+.vp-doc .jp-kana-table th,
+.vp-doc .jp-kana-table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.45rem 0.55rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.plume-content .jp-grammar-table th,
+.plume-content .jp-grammar-table td,
+.vp-doc .jp-grammar-table th,
+.vp-doc .jp-grammar-table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.45rem 0.65rem;
+  vertical-align: middle;
+}
+
+.plume-content .jp-kana-table th,
+.vp-doc .jp-kana-table th,
+.plume-content .jp-grammar-table th,
+.vp-doc .jp-grammar-table th {
+  background: var(--jp-kana-head-bg);
+  font-weight: 600;
+  text-align: center;
+}
+
+.plume-content .jp-grammar-table tr.jp-grammar-row th,
+.plume-content .jp-grammar-table tr.jp-grammar-row td,
+.vp-doc .jp-grammar-table tr.jp-grammar-row th,
+.vp-doc .jp-grammar-table tr.jp-grammar-row td {
+  text-align: center;
+}
+
+.plume-content .jp-kana-table .jp-kana-empty,
+.vp-doc .jp-kana-table .jp-kana-empty {
+  background: var(--jp-kana-empty-bg);
+}
+
+.plume-content .jp-kana-table .jp-kana-row:has(td) > th:last-child,
+.vp-doc .jp-kana-table .jp-kana-row:has(td) > th:last-child {
+  background: var(--jp-kana-vowel-bg);
+  color: var(--jp-kana-vowel-fg);
+  font-weight: 700;
+}
+
+.plume-content .jp-kana-table .jp-kana-reading,
+.vp-doc .jp-kana-table .jp-kana-reading {
+  display: block;
+  font-size: 0.78em;
+  color: var(--vp-c-text-3);
+  margin-top: 0.2em;
+  line-height: 1.2;
+  font-family: var(--vp-font-family-base);
+}
+
+.plume-content .jp-kana-stroke .jp-stroke,
+.vp-doc .jp-kana-stroke .jp-stroke,
+.plume-content .jp-kana-clip .jp-clip,
+.vp-doc .jp-kana-clip .jp-clip {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.plume-content .jp-kana-flip .jp-flip,
+.vp-doc .jp-kana-flip .jp-flip {
+  display: inline-block;
+  margin-top: 0.15em;
+}
+
+.plume-content .jp-layout-table > tbody > tr > td,
+.plume-content .jp-layout-table > tr > td,
+.vp-doc .jp-layout-table > tbody > tr > td,
+.vp-doc .jp-layout-table > tr > td {
+  border: none;
+  padding: 0 0.75rem 0 0;
+  vertical-align: top;
+}
+
+.plume-content .jp-layout-table .jp-grammar-table,
+.vp-doc .jp-layout-table .jp-grammar-table {
+  margin: 0;
+  width: auto;
+}
+
+.plume-content .jp-practice-table th,
+.plume-content .jp-practice-table td,
+.vp-doc .jp-practice-table th,
+.vp-doc .jp-practice-table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 0.5rem 0.75rem;
+  vertical-align: middle;
+}
+
+.plume-content .jp-practice-grid tr.jp-grammar-row th,
+.plume-content .jp-practice-grid tr.jp-grammar-row td,
+.vp-doc .jp-practice-grid tr.jp-grammar-row th,
+.vp-doc .jp-practice-grid tr.jp-grammar-row td {
+  text-align: center;
+}
+
+.plume-content .jp-practice-grid tr:first-child th,
+.plume-content .jp-practice-grid tr:first-child td,
+.vp-doc .jp-practice-grid tr:first-child th,
+.vp-doc .jp-practice-grid tr:first-child td {
+  background: var(--jp-kana-head-bg);
+  font-weight: 600;
+}
+
+.plume-content .jp-practice-table .jp-answerline,
+.vp-doc .jp-practice-table .jp-answerline {
+  border-bottom: 1px solid var(--vp-c-text-2);
+  text-align: center;
+  min-width: 8em;
+  font-family: var(--jp-font);
+  display: inline-block;
+}
+.plume-content .jp-practice-table .jp-hidex,
+.vp-doc .jp-practice-table .jp-hidex {
+  display: none;
+}
+
+.plume-content .jp-practice-table .jp-hidex.jp-hidex-show,
+.vp-doc .jp-practice-table .jp-hidex.jp-hidex-show {
+  display: inline;
+}
+
+/* 双列切换练习：默认显示题目列，隐藏答案列 */
+.plume-content .jp-practice-table td.jp-toggle-answer,
+.vp-doc .jp-practice-table td.jp-toggle-answer {
+  display: none;
+}
+
+.plume-content .jp-exercise.jp-columns-revealed .jp-practice-table td.jp-toggle:not(.jp-toggle-answer),
+.vp-doc .jp-exercise.jp-columns-revealed .jp-practice-table td.jp-toggle:not(.jp-toggle-answer) {
+  display: none;
+}
+
+.plume-content .jp-exercise.jp-columns-revealed .jp-practice-table td.jp-toggle-answer,
+.vp-doc .jp-exercise.jp-columns-revealed .jp-practice-table td.jp-toggle-answer {
+  display: table-cell;
+}
+
+/* 列表项内嵌答案小表：无边框、无背景 */
+.plume-content .jp-answer-table,
+.vp-doc .jp-answer-table {
+  border-collapse: collapse;
+  margin: 0.35rem 0 0.75rem;
+  background: transparent;
+  width: auto;
+}
+
+.plume-content .jp-answer-table th,
+.plume-content .jp-answer-table td,
+.vp-doc .jp-answer-table th,
+.vp-doc .jp-answer-table td {
+  border: none;
+  background: transparent;
+  padding: 0.15rem 0.5rem 0.15rem 0;
+  vertical-align: top;
+}
+
+.plume-content .jp-answer-table .jp-answerline,
+.vp-doc .jp-answer-table .jp-answerline {
+  border-bottom: 1px solid var(--vp-c-text-2);
+  min-width: 8em;
+  font-family: var(--jp-font);
+}
+
+.plume-content .jp-answer-table .jp-hidex,
+.vp-doc .jp-answer-table .jp-hidex {
+  display: none;
+}
+
+.plume-content .jp-answer-table .jp-hidex.jp-hidex-show,
+.vp-doc .jp-answer-table .jp-hidex.jp-hidex-show {
+  display: inline;
+}
+
+/* 练习区内有序列表：普通编号，非例句卡片 */
+.plume-content .jp-exercise ol,
+.vp-doc .jp-exercise ol {
+  margin: 0.75rem 0 1rem;
+  padding-left: 1.5em;
+  list-style-position: outside;
+  counter-reset: none;
+}
+
+.plume-content .jp-exercise ol > li,
+.vp-doc .jp-exercise ol > li {
+  position: static;
+  margin: 0.75rem 0;
+  padding: 0;
+  background: none !important;
+  border: none !important;
+  border-radius: 0;
+  list-style: decimal;
+  counter-increment: none;
+}
+
+.plume-content .jp-exercise ol > li::before,
+.vp-doc .jp-exercise ol > li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* 假名笔顺（showModal）与点击朗读（playClip） */
+.jp-stroke,
+.jp-clip {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-family: var(--jp-font);
+  cursor: pointer;
+}
+
+.jp-stroke:hover,
+.jp-clip:hover {
+  text-decoration: underline;
+}
+
+.jp-clip-audio {
+  display: none !important;
+}
+
+/* 假名笔顺弹窗 */
+.jp-stroke-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jp-stroke-modal[hidden] {
+  display: none !important;
+}
+
+.jp-stroke-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.jp-stroke-modal__box {
+  position: relative;
+  z-index: 1;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem 1rem;
+  max-width: min(92vw, 420px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.jp-stroke-modal__img {
+  display: block;
+  margin: 0 auto 0.75rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.jp-stroke-modal__audio {
+  width: 100%;
+  max-width: 280px;
+}
+
+.jp-stroke-modal__close {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+}
+
+.jp-stroke-modal__close:hover {
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+}
+
+/* 假名练习 flip（原站 hiragana_ex） */
+.jp-hidex {
+  display: none;
+  font-family: var(--jp-font);
+}
+
+.jp-hidex.jp-hidex-show {
+  display: inline;
+  animation: jp-hidex-fade-in 0.25s ease;
+}
+
+@keyframes jp-hidex-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.jp-flip {
+  font-size: 0.85em;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jp-flip:hover {
+  text-decoration: underline;
+}
+
+/* YouTube 嵌入 */
+iframe.youtube {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+  border: 1px solid var(--vp-c-divider);
+}
