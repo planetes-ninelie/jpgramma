@@ -1,0 +1,109 @@
+name: Sync Content
+
+on:
+  schedule:
+    # 北京时间每天凌晨 4:00（UTC 20:00）
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '即使上游无新提交也强制重新转换'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 先不拉子模块内容，仅用 gitlink SHA 对比上游是否有更新
+          submodules: false
+          fetch-depth: 1
+
+      - name: Check upstream source commits
+        id: check
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          set -euo pipefail
+          PINNED=$(git rev-parse HEAD:source)
+          REMOTE=$(git ls-remote https://github.com/pizzamx/jpgramma.git refs/heads/master | cut -f1)
+
+          echo "本地子模块: $PINNED"
+          echo "上游 master: $REMOTE"
+
+          if [ "${FORCE:-false}" = "true" ]; then
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+            echo "强制重新转换。"
+          elif [ -z "$REMOTE" ]; then
+            echo "::error::无法获取上游 master SHA"
+            exit 1
+          elif [ "$PINNED" = "$REMOTE" ]; then
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+            echo "上游无新提交，跳过转换与 Pages 更新。"
+          else
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+            echo "检测到上游更新，开始同步。"
+          fi
+
+      - name: Init and update source submodule
+        if: steps.check.outputs.updated == 'true'
+        run: |
+          git submodule update --init --recursive source
+          git submodule update --remote --merge source
+          echo "同步后源码版本:"
+          git -C source log -1 --oneline
+
+      - name: Setup Python
+        if: steps.check.outputs.updated == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: converter/requirements.txt
+
+      - name: Install converter dependencies
+        if: steps.check.outputs.updated == 'true'
+        run: pip install -r converter/requirements.txt
+
+      - name: Convert HTML to Markdown
+        if: steps.check.outputs.updated == 'true'
+        run: python converter/convert.py
+
+      - name: Check for content changes
+        id: diff
+        if: steps.check.outputs.updated == 'true'
+        run: |
+          shopt -s nullglob
+          status=$(git status --porcelain -- source web/grammar/*.md web/.vuepress/data/)
+          if [ -z "$status" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "转换结果无差异，跳过提交。"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "检测到内容更新："
+            echo "$status"
+          fi
+
+      - name: Commit and push updates
+        if: steps.check.outputs.updated == 'true' && steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- source web/grammar/*.md web/.vuepress/data
+          git commit -m "$(cat <<'EOF'
+          chore: 同步上游源码并更新内容
+
+          从 pizzamx/jpgramma 源码仓库转换最新 HTML 为 Markdown。
+          EOF
+          )"
+          git push
