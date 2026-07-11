@@ -45,6 +45,7 @@ permalink: /grammar/tendency/
 <span class="jp-trans">例：病気 → 病気 <em>がち</em></span>
 <table class="jp-grammar-table">
 <caption>所有加「～がち」活用的形容词（译者注：疑为动词的笔误）变成了名词 / な形容词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -60,6 +61,7 @@ permalink: /grammar/tendency/
 <td>なりがちだった<br>曾倾向于变为</td>
 <td>なりがちじゃなかった<br>不曾倾向于变为</td>
 </tr>
+</tbody>
 </table>
 
 </div>

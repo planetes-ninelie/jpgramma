@@ -68,6 +68,7 @@ permalink: /grammar/signs/
 - 例：嫌 → 嫌 <em>がる</em>
 <table class="jp-grammar-table">
 <caption>所有「～がる」活用后的单词都是う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -83,6 +84,7 @@ permalink: /grammar/signs/
 <td>怖がった<br>像是吓到了</td>
 <td>怖がらなかった<br>像是没吓到</td>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -148,6 +150,7 @@ permalink: /grammar/signs/
 - 例：言わなかった → 言わなかった <em>ばかり</em>
 <table class="jp-grammar-table">
 <caption>活用小结</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -163,6 +166,7 @@ permalink: /grammar/signs/
 <td>言ったばかり<br>像是说过</td>
 <td>言わなかったばかり<br>像是没说过</td>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -210,6 +214,7 @@ permalink: /grammar/signs/
 - 例：謎 → 謎 <em>めく</em>
 <table class="jp-grammar-table">
 <caption>小结</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -225,6 +230,7 @@ permalink: /grammar/signs/
 <td>謎めいた<br>谜一样的气氛</td>
 <td>*謎めかなかった<br>非谜一样的气氛</td>
 </tr>
+</tbody>
 </table>
 
 * 否定活用虽然语法正确但却不大可能被用到。常用的是过去形。

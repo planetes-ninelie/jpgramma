@@ -35,6 +35,7 @@ permalink: /grammar/easyhard/
   2. <span class="jp-word" title="しゃべる - 说话">しゃべ<em>る</em></span> → <span class="jp-word" title="しゃべる - 说话">しゃべ<em>り</em></span> → <span class="jp-word" title="しゃべる - 说话">しゃべり</span> <em>にくい</em>
 <table class="jp-grammar-table">
 <caption>结果是一个普通的い形容词。</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定形</th>
@@ -50,6 +51,7 @@ permalink: /grammar/easyhard/
 <td><span class="jp-word" title="たべる - 吃">食べ</span>にく<em>かった</em></td>
 <td><span class="jp-word" title="たべる - 吃">食べ</span>にく<em>くなかった</em></td>
 </tr>
+</tbody>
 </table>
 
 </div>

@@ -70,6 +70,7 @@ permalink: /grammar/particlesintro-ex/
 <div class="jp-exercise" id="exercise1">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>１． どこ？（主题：学校）</td>
 <td>＝</td>
@@ -130,6 +131,7 @@ permalink: /grammar/particlesintro-ex/
 <td class="jp-answerline"><span class="jp-hidex">彼は知り合い？</span></td>
 <td>（他是熟人吗？）</td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -149,6 +151,7 @@ permalink: /grammar/particlesintro-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table jp-practice-grid" border="0">
+<tbody>
 <tr>
 <td class="jp-toggle">１．今日は雨だ。昨日<span class="jp-answerline">　　　</span>雨だった。</td>
 <td class="jp-toggle jp-toggle-answer">１．今日は雨だ。昨日<span class="jp-answerline">　も　</span>雨だった。</td>
@@ -173,6 +176,7 @@ permalink: /grammar/particlesintro-ex/
 <td class="jp-toggle">６．ここは入口。出口<span class="jp-answerline">　　　</span>ここだ。</td>
 <td class="jp-toggle jp-toggle-answer">６．ここは入口。出口<span class="jp-answerline">　も　</span>ここだ。</td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -190,6 +194,7 @@ permalink: /grammar/particlesintro-ex/
 <div class="jp-exercise" id="exercise3">
 
 <table class="jp-practice-table jp-practice-grid" border="0">
+<tbody>
 <tr>
 <td class="jp-toggle">ジム） アリス<span class="jp-answerline">　　　</span>誰？<br>ボブ） 友達だ。彼女<span class="jp-answerline">　　　</span>アリスだ</td>
 <td class="jp-toggle jp-toggle-answer">ジム） アリス<span class="jp-answerline">　は　</span>誰？<br>ボブ） 友達だ。彼女<span class="jp-answerline">　が　</span>アリスだ</td>
@@ -208,6 +213,7 @@ permalink: /grammar/particlesintro-ex/
 <td class="jp-toggle">アリス） 図書館<span class="jp-answerline">　　　</span>どこ？<br>ボブ） ここ<span class="jp-answerline">　　　</span>図書館だ。<br>アリス） そこ<span class="jp-answerline">　　　</span>図書館じゃない？<br>ボブ） そこじゃない。図書館<span class="jp-answerline">　　　</span>ここだ。</td>
 <td class="jp-toggle jp-toggle-answer">アリス） 図書館<span class="jp-answerline">　は　</span>どこ？<br>ボブ） ここ<span class="jp-answerline">　が　</span>図書館だ。<br>アリス） そこ<span class="jp-answerline">　は　</span>図書館じゃない？<br>ボブ） そこじゃない。図書館<span class="jp-answerline">　は　</span>ここだ。</td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

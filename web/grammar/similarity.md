@@ -86,6 +86,7 @@ permalink: /grammar/similarity/
 - 把「みたい」相似对象的那个名词后面。「みたい」像名词或な形容词那样活用，它不是い形容词。
 <table class="jp-grammar-table">
 <caption>以「<span class="jp-word" title="いぬ - 狗">犬</span>」为例活用</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -101,6 +102,7 @@ permalink: /grammar/similarity/
 <td><span class="jp-word" title="いぬ - 狗">犬</span><em>だった</em>みたい<br>以前像狗</td>
 <td><span class="jp-word" title="いぬ - 狗">犬</span><em>じゃなかった</em>みたい<br>以前不像狗</td>
 </tr>
+</tbody>
 </table>
 
 </div>

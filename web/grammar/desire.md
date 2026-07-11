@@ -28,6 +28,7 @@ permalink: /grammar/desire/
 
 <table class="jp-grammar-table">
 <caption>「たい」形活用规则</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -43,6 +44,7 @@ permalink: /grammar/desire/
 <td><span class="jp-word" title="いく - 走">行きたかった</span></td>
 <td><span class="jp-word" title="いく - 走">行きたくなかった</span></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -146,9 +148,11 @@ permalink: /grammar/desire/
 下面这些动词你应该已经熟悉了
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>示例る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>意向形</th>
@@ -189,10 +193,12 @@ permalink: /grammar/desire/
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>る</em></span></td>
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>よう</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td><table class="jp-grammar-table">
 <caption>示例う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>意向形</th>
@@ -233,10 +239,12 @@ permalink: /grammar/desire/
 <td><span class="jp-word" title="かう- 买">買<em>う</em></span></td>
 <td><span class="jp-word" title="かう- 买">買<em>おう</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>意向形</th>
@@ -249,8 +257,10 @@ permalink: /grammar/desire/
 <td><span class="jp-word" title="くる- 来">くる</span></td>
 <td><span class="jp-word" title="くる- 来">こよう</span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -297,6 +307,7 @@ permalink: /grammar/desire/
 
 <table class="jp-grammar-table">
 <caption>示例</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>意向形</th>
@@ -321,6 +332,7 @@ permalink: /grammar/desire/
 <td><span class="jp-word" title="あそぶ - 玩">遊ぶ</span></td>
 <td><span class="jp-word" title="あそぶ - 玩">遊び<em>ましょう</em></span></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例

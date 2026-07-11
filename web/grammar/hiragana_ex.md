@@ -12,6 +12,7 @@ permalink: /grammar/hiragana-ex/
 
 <table class="jp-kana-table jp-kana-flip">
 <caption>平假名表</caption>
+<tbody>
 <tr class="jp-kana-row">
 <th>n</th>
 <th>w</th>
@@ -96,6 +97,7 @@ permalink: /grammar/hiragana-ex/
 <td><span class="jp-hidex" id="o">お</span><br><a class="jp-flip" href="#" data-flip="o">flip</a></td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -117,6 +119,7 @@ permalink: /grammar/hiragana-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table">
+<tbody>
 <tr>
 <td>1. ku | ru | ma</td>
 <td>＝</td>
@@ -192,6 +195,7 @@ permalink: /grammar/hiragana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">ふゆかい</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -211,6 +215,7 @@ permalink: /grammar/hiragana-ex/
 <div class="jp-exercise" id="exercise3">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. nu | ru | i | o | cha</td>
 <td>＝</td>
@@ -286,6 +291,7 @@ permalink: /grammar/hiragana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">りゅうがくせい</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -305,6 +311,7 @@ permalink: /grammar/hiragana-ex/
 <div class="jp-exercise" id="exercise4">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. きゃっかんてき</td>
 <td>＝</td>
@@ -355,6 +362,7 @@ permalink: /grammar/hiragana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">shotchuu</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

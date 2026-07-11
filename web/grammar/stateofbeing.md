@@ -116,6 +116,7 @@ permalink: /grammar/stateofbeing/
 
 <table class="jp-grammar-table">
 <caption>表达状态总结</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>&#160;</td>
 <th colspan="2">肯定</th>
@@ -135,4 +136,5 @@ permalink: /grammar/stateofbeing/
 <td><span class="jp-word" title="がくせい - 学生">学生</span>じゃなかった</td>
 <td>以前不是学生</td>
 </tr>
+</tbody>
 </table>

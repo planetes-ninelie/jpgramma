@@ -40,6 +40,7 @@ permalink: /grammar/timeactions/
 <span class="jp-trans">例: <span class="jp-word" title="たべる - 吃">食べた</span> <em>ばかり</em> → <span class="jp-word" title="たべる - 吃">食べた</span> <em>ばっか</em></span>
 <table class="jp-grammar-table">
 <caption>新单词活用规则同名词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th colspan="2">肯定</th>
 <th colspan="2">否定</th>
@@ -50,6 +51,7 @@ permalink: /grammar/timeactions/
 <td><span class="jp-word" title="たべる - 吃">食べた</span>ばかりじゃない</td>
 <td>刚没吃</td>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -248,6 +250,7 @@ WWWJDIC 非常简洁的将这个动词解释为一个「用来表示不计后果
 <span class="jp-trans"><span class="jp-word" title="やる - 做">や<em>る</em></span> → <span class="jp-word" title="やる - 做">や<em>り</em></span> → <span class="jp-word" title="やる - 做">やり</span> <em>まくっている</em></span>
 <table class="jp-grammar-table">
 <caption>新的单词可以进行任何活用</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -263,6 +266,7 @@ WWWJDIC 非常简洁的将这个动词解释为一个「用来表示不计后果
 <td><span class="jp-word" title="やる - 做">やり</span>まくっていた<br>曾经一直在做</td>
 <td><span class="jp-word" title="やる - 做">やり</span>まくっていなかった<br>没有一直在做过</td>
 </tr>
+</tbody>
 </table>
 
 </div>

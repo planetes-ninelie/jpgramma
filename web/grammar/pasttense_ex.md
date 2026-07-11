@@ -67,6 +67,7 @@ permalink: /grammar/pasttense-ex/
 <div class="jp-exercise" id="exercise1">
 
 <table class="jp-practice-table">
+<tbody>
 <tr class="jp-grammar-row">
 <td>动词</td>
 <td>过去形</td>
@@ -143,6 +144,7 @@ permalink: /grammar/pasttense-ex/
 <td>死ぬ</td>
 <td class="jp-answerline"><span class="jp-hidex">死んだ</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -158,6 +160,7 @@ permalink: /grammar/pasttense-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table">
+<tbody>
 <tr class="jp-grammar-row">
 <td>动词</td>
 <td>过去否定式</td>
@@ -234,6 +237,7 @@ permalink: /grammar/pasttense-ex/
 <td>死ぬ</td>
 <td class="jp-answerline"><span class="jp-hidex">死ななかった</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

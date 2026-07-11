@@ -218,6 +218,7 @@ permalink: /grammar/nounparticles/
 
 <table class="jp-grammar-table">
 <caption>粘黏到各种活用形后面的「んだ」（把「の」或者「のだ」换成了「んだ」）</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>名词 、な形容词</th>
@@ -243,10 +244,12 @@ permalink: /grammar/nounparticles/
 <td><span class="jp-word" title="がくせい - 学生">学生</span>じゃなかった<em>んだ</em></td>
 <td><span class="jp-word" title="のむ - 喝">飲まなかった</span><em>んだ</em></td>
 </tr>
+</tbody>
 </table>
 
 <table class="jp-grammar-table">
 <caption>活用「んだ」（把「の」替换成「ん」，「の」或「のだ」替换成「んだ」）</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>名词 、な形容词</th>
@@ -272,6 +275,7 @@ permalink: /grammar/nounparticles/
 <td><span class="jp-word" title="がくせい - 学生">学生</span><em>なんじゃなかった</em></td>
 <td><span class="jp-word" title="のむ - 喝">飲む</span><em>んじゃなかった</em></td>
 </tr>
+</tbody>
 </table>
 
 其实第二张图里面名词 、な形容词的过去形和过去否定式基本上没人用（特别是用「の」时），不过为了图表的完整我还是写上了。

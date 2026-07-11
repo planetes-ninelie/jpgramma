@@ -66,6 +66,7 @@ permalink: /grammar/stateofbeing-ex/
 <b>これ</b>
 <br>
 <table class="jp-answer-table">
+<tbody>
 <tr>
 <td>陈述</td>
 <td>=</td>
@@ -86,12 +87,14 @@ permalink: /grammar/stateofbeing-ex/
 <td>=</td>
 <td class="jp-answerline"><span class="jp-hidex">これじゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 </li>
 <li>
 <b>大人</b>
 <br>
 <table class="jp-answer-table">
+<tbody>
 <tr>
 <td>陈述</td>
 <td>=</td>
@@ -112,12 +115,14 @@ permalink: /grammar/stateofbeing-ex/
 <td>=</td>
 <td class="jp-answerline"><span class="jp-hidex">大人じゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 </li>
 <li>
 <b>学校</b>
 <br>
 <table class="jp-answer-table">
+<tbody>
 <tr>
 <td>陈述</td>
 <td>=</td>
@@ -138,12 +143,14 @@ permalink: /grammar/stateofbeing-ex/
 <td>=</td>
 <td class="jp-answerline"><span class="jp-hidex">学校じゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 </li>
 <li>
 <b>友達</b>
 <br>
 <table class="jp-answer-table">
+<tbody>
 <tr>
 <td>陈述</td>
 <td>=</td>
@@ -164,12 +171,14 @@ permalink: /grammar/stateofbeing-ex/
 <td>=</td>
 <td class="jp-answerline"><span class="jp-hidex">友達じゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 </li>
 <li>
 <b>学生</b>
 <br>
 <table class="jp-answer-table">
+<tbody>
 <tr>
 <td>陈述</td>
 <td>=</td>
@@ -190,6 +199,7 @@ permalink: /grammar/stateofbeing-ex/
 <td>=</td>
 <td class="jp-answerline"><span class="jp-hidex">学生じゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 </li>
 </ol>
@@ -210,6 +220,7 @@ permalink: /grammar/stateofbeing-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. 是大学</td>
 <td>＝</td>
@@ -270,6 +281,7 @@ permalink: /grammar/stateofbeing-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">そうじゃない。</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -289,6 +301,7 @@ permalink: /grammar/stateofbeing-ex/
 <div class="jp-exercise" id="exercise3">
 
 <table class="jp-practice-table jp-practice-grid" border="0">
+<tbody>
 <tr>
 <td class="jp-toggle">Ｑ１） 友達？<br>Ａ１） うん、<span class="jp-answerline">　　　　　　　　　　</span>。 （女）</td>
 <td class="jp-toggle jp-toggle-answer">Ｑ１） 友達？<br>Ａ１） うん、<span class="jp-answerline">友達</span>。 （女）</td>
@@ -342,6 +355,7 @@ permalink: /grammar/stateofbeing-ex/
 <td class="jp-toggle">Ｑ８） 子供？<br>Ａ８） うん、<span class="jp-answerline">　　　　　　　　　　</span>。 （女）</td>
 <td class="jp-toggle jp-toggle-answer">Ｑ８） 子供？<br>Ａ８） うん、<span class="jp-answerline">子供</span>。 （女）</td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

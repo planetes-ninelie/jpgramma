@@ -61,9 +61,11 @@ permalink: /grammar/past-tense/
 把う动词从字典形活用成过去形很难，因为我们又得把う动词根据末假名细分为四类，如下表所示。另外还有一个特例，那就是「<span class="jp-word" title="いく - 走">行く</span>」。我把它和另外两个例外动词「<span class="jp-word" title="する - 做">する</span>」、「<span class="jp-word" title="くる - 来">来る</span>」放一起了，虽然「<span class="jp-word" title="いく - 去">行く</span>」在其他活用规则里是一个正常的う动词。
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>う动词的过去形活用</caption>
+<tbody>
 <tr>
 <th>结尾</th>
 <th>非过去形</th>
@@ -94,10 +96,12 @@ permalink: /grammar/past-tense/
 <td>る→った<br>う→った<br>つ→った</td>
 <td><span class="jp-word" title="きる - 切">切<em>った</em></span><br><span class="jp-word" title="かう - 买">買<em>った</em></span><br><span class="jp-word" title="もつ - 拿，带">持<em>った</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>非过去形</th>
 <th>过去形</th>
@@ -114,8 +118,10 @@ permalink: /grammar/past-tense/
 <td><span class="jp-word" title="いく - 去">行く</span></td>
 <td><span class="jp-word" title="いく - 去">行<em>った</em></span>*</td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 * 只在这种活用中例外

@@ -127,6 +127,7 @@ permalink: /grammar/question/
 
 <table class="jp-grammar-table">
 <caption>疑问词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>单词 + 提问词</th>
 <th>含义</th>
@@ -151,6 +152,7 @@ permalink: /grammar/question/
 <td><span class="jp-word" title="どれ - which">どれ</span><em>か</em></td>
 <td>某个</td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -194,6 +196,7 @@ permalink: /grammar/question/
 
 <table class="jp-grammar-table">
 <caption>包含单词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>单词 + も</th>
 <th>含义</th>
@@ -218,6 +221,7 @@ permalink: /grammar/question/
 <td><span class="jp-word" title="どれ - which">どれ</span><em>も</em></td>
 <td>任一（都）</td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -252,6 +256,7 @@ permalink: /grammar/question/
 
 <table class="jp-grammar-table">
 <caption>表示「任何」的单词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>单词 + でも</th>
 <th>含义</th>
@@ -276,6 +281,7 @@ permalink: /grammar/question/
 <td><span class="jp-word" title="どれ - which">どれ</span><em>でも</em></td>
 <td>任一</td>
 </tr>
+</tbody>
 </table>
 
 ### 示例

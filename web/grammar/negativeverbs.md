@@ -64,6 +64,7 @@ permalink: /grammar/negativeverbs/
 
 <table class="jp-grammar-table">
 <caption>动词否定式示例</caption>
+<tbody>
 <tr>
 <th>る动词</th>
 <th>う动词</th>
@@ -114,6 +115,7 @@ permalink: /grammar/negativeverbs/
 <td>死ぬ → 死なない</td>
 <td>&#160;</td>
 </tr>
+</tbody>
 </table>
 
 ### 示例

@@ -102,6 +102,7 @@ permalink: /grammar/people/
 
 <table class="jp-grammar-table">
 <caption>家族图表</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>自家人</th>
@@ -162,6 +163,7 @@ permalink: /grammar/people/
 <td><span class="jp-word" title="むすめ - 女儿">娘</span></td>
 <td><span class="jp-word" title="むすめさん - 女儿">娘さん</span></td>
 </tr>
+</tbody>
 </table>
 
 妻子还有一种说法是「<span class="jp-word" title="かない - 妻子">家内</span>」，不过被认为政治不正确，因为用的汉字有老婆属于家庭的意思。阿门（开玩笑啦）。

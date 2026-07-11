@@ -59,6 +59,7 @@ permalink: /grammar/verbs/
 
 <table class="jp-grammar-table">
 <caption>不同类型动词的示例</caption>
+<tbody>
 <tr>
 <th>る动词</th>
 <th>う动词</th>
@@ -103,6 +104,7 @@ permalink: /grammar/verbs/
 <td>着る</td>
 <td>死ぬ</td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -155,6 +157,7 @@ permalink: /grammar/verbs/
 
 <table class="jp-grammar-table">
 <caption>初略分类的る前为 /i/ 或 /e/ 的う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>初级</th>
 <th>中级</th>
@@ -200,4 +203,5 @@ permalink: /grammar/verbs/
 <td><span class="jp-word" title="まじる - 混合">交じる</span></td>
 <td><span class="jp-word" title="よみがえる - 被复活">蘇る</span></td>
 </tr>
+</tbody>
 </table>

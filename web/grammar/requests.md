@@ -190,9 +190,11 @@ permalink: /grammar/requests/
 </div>
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>示例る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>命令形</th>
@@ -229,10 +231,12 @@ permalink: /grammar/requests/
 <td><span class="jp-word" title="すてる - 扔掉">捨て<em>る</em></span></td>
 <td><span class="jp-word" title="すてる - 扔掉">捨て<em>ろ</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td><table class="jp-grammar-table">
 <caption>示例う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>命令形</th>
@@ -269,10 +273,12 @@ permalink: /grammar/requests/
 <td><span class="jp-word" title="かう- 买">買<em>う</em></span></td>
 <td><span class="jp-word" title="かう- 买">買<em>え</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>命令形</th>
@@ -289,8 +295,10 @@ permalink: /grammar/requests/
 <td><span class="jp-word" title="くれる - 给">くれる</span></td>
 <td><span class="jp-word" title="くれる - 给">くれ</span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例

@@ -12,6 +12,7 @@ permalink: /grammar/numbers/
 
 <table class="jp-grammar-table">
 <caption>汉字，以及 1 到 5 的读法</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>1</td>
 <td>2</td>
@@ -33,10 +34,12 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="し - 四">し</span>／<span class="jp-word" title="よん - 四">よん</span></td>
 <td><span class="jp-word" title="ご - 五">ご</span></td>
 </tr>
+</tbody>
 </table>
 
 <table class="jp-grammar-table">
 <caption>汉字，以及 6 到 10 的读法</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>6</td>
 <td>7</td>
@@ -58,6 +61,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="きゅう - 九">きゅう</span></td>
 <td><span class="jp-word" title="じゅう - 十">じゅう</span></td>
 </tr>
+</tbody>
 </table>
 
 如图所示，4 既可以是「<span class="jp-word" title="し - 四">し</span>」也可以是「<span class="jp-word" title="よん - 四">よん</span>」，而 7 可以是「<span class="jp-word" title="しち - 七">しち</span>」或「<span class="jp-word" title="なな - 七">なな</span>」。十以内的话基本上怎么说都可以，不过十以后的话就要用「<span class="jp-word" title="よん - 四">よん</span>」和「<span class="jp-word" title="なな - 七">なな</span>」了。一般来说，「<span class="jp-word" title="よん - 四">よん</span>」和「<span class="jp-word" title="なな - 七">なな</span>」在大多数场合比「<span class="jp-word" title="し - 四">し</span>」和「<span class="jp-word" title="しち - 七">しち</span>」常用。
@@ -76,6 +80,7 @@ permalink: /grammar/numbers/
 下面是更大的数字：
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th>数字</th>
 <td>100</td>
@@ -100,6 +105,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="おく - 亿">おく</span></td>
 <td><span class="jp-word" title="ちょう - 兆">ちょう</span></td>
 </tr>
+</tbody>
 </table>
 
 注意到 10^4 和 10^8 之间，也就是<span class="jp-word" title="まん - 万">万</span> 和 <span class="jp-word" title="おく - 亿">億</span>之间是空白的吗？这是因为日语里面数字是按万位分组的。超过 1万 (10,000) 以后，就要回头重来，直到 9,999 万，然后才到 <span class="jp-word" title="いちおく - 一亿">1億</span> (100,000,000)。另外，<span class="jp-word" title="ひゃく- 一百">百</span> 是 100，<span class="jp-word" title="せん - 一千">千</span>是 1,000，但再大就必须加个 1，于是剩下的单位就变成了<span class="jp-word" title="いちまん - 一万">一万</span> (10^4)、<span class="jp-word" title="いちおく - 一亿">一億</span> (10^8)、<span class="jp-word" title="いっちょう - 一兆">一兆</span> (10^12)。
@@ -107,6 +113,7 @@ permalink: /grammar/numbers/
 现在你可以数到 9,999,999,999,999,999 了，把那些数字串起来就行。但问题才开始出现。你可以试着说一下「いちちょう」 、「ろくひゃく」或者「さんせん」，说快一点你就会发现很困难，因为老是要重复那些相似的元音。所以日本人决定简化，发音成「<span class="jp-word" title="いっちょう - 一兆">いっちょう</span>」、 「<span class="jp-word" title="ろっぴゃく - 六百">ろっぴゃく</span>」和「<span class="jp-word" title="さんぜん - 三千">さんぜん</span>」。不幸的是这让大家的学习变得更难了。以下是所有的细微变化。
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th>数字</th>
 <th><span class="jp-word" title="かんじ - 汉字">漢字</span></th>
@@ -142,6 +149,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="いっちょう - 一兆">一兆</span></td>
 <td><span class="jp-word" title="いっちょう - 一兆">いっちょう</span></td>
 </tr>
+</tbody>
 </table>
 
 1. 四万三千七十六 （よんまんさんぜんななじゅうろく）<br>
@@ -192,6 +200,7 @@ permalink: /grammar/numbers/
 
 <table class="jp-grammar-table">
 <caption>日期</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>序号</th>
 <th>汉字</th>
@@ -357,6 +366,7 @@ permalink: /grammar/numbers/
 <td>三十一日</td>
 <td>さん・じゅう・いち・にち</td>
 </tr>
+</tbody>
 </table>
 
 ### 时间
@@ -364,6 +374,7 @@ permalink: /grammar/numbers/
 现在再学如何说时间。小时是用数字加「<span class="jp-word" title="じ 小时的量词">時</span>」，读音是「<span class="jp-word" title="じ 小时的量词">じ</span>」。下面是例外。
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th><span class="jp-word" title="えいご - English">英語</span></th>
 <td>4 o'clock</td>
@@ -382,6 +393,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="しちじ - 7 o'clock">しちじ</span></td>
 <td><span class="jp-word" title="くじ - 9 o'clock">くじ</span></td>
 </tr>
+</tbody>
 </table>
 
 有没有注意到数字 4、7 和 9 一直不规则？哈，还不止，有时候 1、6 和 8 都是要注意的数字。
@@ -389,6 +401,7 @@ permalink: /grammar/numbers/
 分钟后面加的是「<span class="jp-word" title="ふん - 分钟的量词">分</span>」，通常读作「<span class="jp-word" title="ふん - 分钟的量词">ふん</span>」，但也有例外：
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th><span class="jp-word" title="えいご - English">英語</span></th>
 <td>1 min</td>
@@ -416,6 +429,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="はっぷん - 8 minutes">はっぷん</span></td>
 <td><span class="jp-word" title="じゅっぷん - 10 minutes">じゅっぷん</span></td>
 </tr>
+</tbody>
 </table>
 
 对于两位数，十位数按正常发音，个位数则按照上面的规则。例如 24 分是「<span class="jp-word" title="にじゅうよんぷん - 24 minutes">にじゅうよんぷん</span>」 （<span class="jp-word" title="にじゅうよんぷん - 24 minutes">二十四分</span>），而 30 分是「<span class="jp-word" title="さんじゅっぷん - 30 minutes">さんじゅっぷん</span>」 （<span class="jp-word" title="さんじゅっぷん - 30 minutes">三十分</span>）。另外还有一些不大常用但正确的读法例如「<span class="jp-word" title="はちふん - 8 minutes">八分</span>」读作「<span class="jp-word" title="はちふん - 8 minutes">はちふん</span>」，「<span class="jp-word" title="じっぷん - 10 minutes">十分</span>」读作「<span class="jp-word" title="じっぷん - 10 minutes">じっぷん</span>」（基本没人这么读）。
@@ -461,6 +475,7 @@ permalink: /grammar/numbers/
 数月的时候，要注意以下的发音变化：
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th><span class="jp-word" title="えいご - English">英語</span></th>
 <td>1 month</td>
@@ -479,6 +494,7 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="ろっかげつ - span of six months">ろっかげつ</span></td>
 <td><span class="jp-word" title="じゅっかげつ - span of ten months">じゅっかげつ</span></td>
 </tr>
+</tbody>
 </table>
 
 像分钟一样，两位数以上的数字要注意个位数按照以上规则发音。
@@ -495,6 +511,7 @@ permalink: /grammar/numbers/
 我们再介绍一些常用的量词，这样你能有个大概的印象，希望以后你能自学，因为量词实在多到数不清。要注意，量词用错是语法错误。如果你在数人，就<b>必须</b>用人的量词，等等。有时，用通用量词来代替不常用的量词也是可以的。以下是一些量词。
 
 <table class="jp-grammar-table">
+<tbody>
 <tr class="jp-grammar-row">
 <th><span class="jp-word" title="にほんご - 日语">日本語</span></th>
 <th>何时使用</th>
@@ -539,10 +556,12 @@ permalink: /grammar/numbers/
 <td><span class="jp-word" title="つ - 通用量词">つ</span></td>
 <td>用来数量词罕用、或没有量词的物体</td>
 </tr>
+</tbody>
 </table>
 
 <table class="jp-grammar-table">
 <caption>从 1 数到 10</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>&#160;</td>
 <th><span class="jp-word" title="にん - 人的量词">人</span></th>
@@ -686,6 +705,7 @@ permalink: /grammar/numbers/
 <td><em>じゅっかしょ</em></td>
 <td><em>とお</em></td>
 </tr>
+</tbody>
 </table>
 
 有变化的发音高亮了。<br>

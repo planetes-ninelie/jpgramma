@@ -34,6 +34,7 @@ permalink: /grammar/teform/
   2. <span class="jp-word" title="よむ - 读">読<em>む</em></span> → <span class="jp-word" title="よむ - 读">読ん<em>で</em></span> → <span class="jp-word" title="よむ - 读">読んで</span> <em>いる</em>
 <table class="jp-grammar-table">
 <caption>不管原动词是何属性，新单词都是る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th colspan="2">肯定</th>
@@ -53,6 +54,7 @@ permalink: /grammar/teform/
 <td><span class="jp-word" title="よむ - 读">読んで</span><em>いなかった</em></td>
 <td>当时不在读</td>
 </tr>
+</tbody>
 </table>
 
 </div>

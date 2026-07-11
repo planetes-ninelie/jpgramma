@@ -13,6 +13,7 @@ permalink: /grammar/katakana-ex/
 片假名表
 
 <table class="jp-kana-table jp-kana-flip">
+<tbody>
 <tr class="jp-kana-row">
 <th>n</th>
 <th>w</th>
@@ -97,6 +98,7 @@ permalink: /grammar/katakana-ex/
 <td><span class="jp-hidex" id="o">オ</span><br><a class="jp-flip" href="#" data-flip="o">flip</a></td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -118,6 +120,7 @@ permalink: /grammar/katakana-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. pan</td>
 <td>＝</td>
@@ -188,6 +191,7 @@ permalink: /grammar/katakana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">ナイトゲーム</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -207,6 +211,7 @@ permalink: /grammar/katakana-ex/
 <div class="jp-exercise" id="exercise3">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. e | i | zu | wi | ru | su</td>
 <td>＝</td>
@@ -277,6 +282,7 @@ permalink: /grammar/katakana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">ウエイトリフティング（译者注：疑似笔误，应该是ウ<b>ェ</b>イトリフティング）</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -320,6 +326,7 @@ permalink: /grammar/katakana-ex/
 <div class="jp-exercise" id="exercise4">
 
 <table class="jp-practice-table" border="0">
+<tbody>
 <tr>
 <td>1. check</td>
 <td>＝</td>
@@ -370,6 +377,7 @@ permalink: /grammar/katakana-ex/
 <td>＝</td>
 <td class="jp-answerline"><span class="jp-hidex">ニューヨーク</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

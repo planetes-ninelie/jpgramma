@@ -17,6 +17,6 @@ permalink: /grammar/advanced/
 - [立即发生的事件](/grammar/immedate/)
 - [其他语法](/grammar/other/)
 
-表达保持现状
+[表达保持现状](/grammar/nochange/)
 
-正式的表达方法
+[正式的表达方法](/grammar/formal/)

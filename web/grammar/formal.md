@@ -83,6 +83,7 @@ permalink: /grammar/formal/
 - 对于过去状态表示，用「ある」的过去形
 <table class="jp-grammar-table">
 <caption>「である」的完整活用表</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th colspan="2">肯定</th>
 <th colspan="2">否定</th>
@@ -99,6 +100,7 @@ permalink: /grammar/formal/
 <td>学生<em>ではなかった</em></td>
 <td>曾不是学生</td>
 </tr>
+</tbody>
 </table>
 
 </div>

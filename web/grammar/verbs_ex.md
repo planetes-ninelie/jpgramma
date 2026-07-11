@@ -63,6 +63,7 @@ permalink: /grammar/verbs-ex/
 <div class="jp-exercise" id="exercise1">
 
 <table class="jp-practice-table">
+<tbody>
 <tr class="jp-grammar-row">
 <td>动词</td>
 <td>る动词</td>
@@ -153,6 +154,7 @@ permalink: /grammar/verbs-ex/
 <td class="jp-answerline"><span class="jp-hidex">●</span></td>
 <td class="jp-answerline"><span class="jp-hidex"></span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

@@ -12,6 +12,7 @@ permalink: /grammar/hiragana/
 
 <table class="jp-kana-table jp-kana-stroke">
 <caption>平假名 - 点击可以听录音</caption>
+<tbody>
 <tr>
 <th>n</th>
 <th>w</th>
@@ -96,6 +97,7 @@ permalink: /grammar/hiragana/
 <td><a class="jp-stroke" href="#" data-char="o">お</a></td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 * = 已不使用
@@ -136,6 +138,7 @@ permalink: /grammar/hiragana/
 
 <table class="jp-kana-table jp-kana-clip">
 <caption>浊平假名</caption>
+<tbody>
 <tr class="jp-kana-row">
 <th>p</th>
 <th>b</th>
@@ -184,6 +187,7 @@ permalink: /grammar/hiragana/
 <td><a class="jp-clip" href="#" data-char="go">ご</a></td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox">
@@ -200,6 +204,7 @@ permalink: /grammar/hiragana/
 
 <table class="jp-kana-table jp-kana-clip">
 <caption>平假名中所有小や、ゆ、和よ的组合</caption>
+<tbody>
 <tr class="jp-kana-row">
 <th>p</th>
 <th>b</th>
@@ -256,6 +261,7 @@ permalink: /grammar/hiragana/
 <td><a class="jp-clip" href="#" data-char="kyo">きょ</a></td>
 <th>yo</th>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox">
@@ -291,6 +297,7 @@ permalink: /grammar/hiragana/
 
 <table class="jp-grammar-table">
 <caption>拉长元音</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>元音</th>
 <th>用于拉长的附加元音</th>
@@ -307,6 +314,7 @@ permalink: /grammar/hiragana/
 <td>/ u / o /</td>
 <td>う</td>
 </tr>
+</tbody>
 </table>
 
 例如你想拉长「か」的发音，就可以在后面加一个「あ」，变成「かあ」。再举一些例子：「き → きい」、「く → くう」、「け → けい」、「こ → こう」、「さ → さあ」，依此类推。长元音的原理很简单，试着分别发音「か」和「あ」，然后再快速连读。很快你就会发现好像是在拉长 / ka / 的发音时间。发长元音的时候，要记住其实是在发两个音。

@@ -29,6 +29,6 @@ permalink: /grammar/essential/
 - [口语习惯及俚语](/grammar/slang/)
 - [复习以及更多的句尾助词](/grammar/sentence-ending/)
 
-副词和用于结束句子的助词
+[副词和用于结束句子的助词](/grammar/adverbs/)
 
-敬语和动词词根
+[敬语和动词词根](/grammar/polite/)

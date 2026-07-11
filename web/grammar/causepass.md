@@ -59,6 +59,7 @@ permalink: /grammar/causepass/
 <div class="sumbox">
 <div class="sumbox-title">使役动词活用规则</div>
 
+ 下面是动词使役形的活用规则。所有使役动词都是る动词。 
 - <b>对る动词：</b> 把「る」换成「させる」。
 - <b>对う动词：</b> 跟未然形一样活用（u 段变 a 段），只不过加上「せる」而不是「ない」。
 - <b>例外动词：</b>
@@ -67,9 +68,11 @@ permalink: /grammar/causepass/
 </div>
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>示例る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>使役形</th>
@@ -110,10 +113,12 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>る</em></span></td>
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>させる</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td><table class="jp-grammar-table">
 <caption>示例う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>使役形</th>
@@ -154,10 +159,12 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="かう- 买">買<em>う</em></span></td>
 <td><span class="jp-word" title="かう- 买">買<em>わせる</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>肯定</th>
 <th>使役形</th>
@@ -170,8 +177,10 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="くる- 来">くる</span></td>
 <td><span class="jp-word" title="くる- 来">こさせる</span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -288,6 +297,7 @@ permalink: /grammar/causepass/
 <div class="sumbox">
 <div class="sumbox-title">被动活用规则</div>
 
+ 所有被动词都是る动词。 
 - <b>对る动词：</b> 把「る」换成「られる」
 - <b>对う动词：:</b> 跟未然形一样活用（u 段变 a 段），只不过加上「れる」而非「ない」。
 - <b>例外动词：</b>
@@ -296,9 +306,11 @@ permalink: /grammar/causepass/
 </div>
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>示例る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>被动形</th>
@@ -339,10 +351,12 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>る</em></span></td>
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>られる</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td><table class="jp-grammar-table">
 <caption>示例う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>被动形</th>
@@ -383,10 +397,12 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="かう- 买">買<em>う</em></span></td>
 <td><span class="jp-word" title="かう- 买">買<em>われる</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>肯定形</th>
 <th>被动形</th>
@@ -399,8 +415,10 @@ permalink: /grammar/causepass/
 <td><span class="jp-word" title="くる- 来">くる</span></td>
 <td><span class="jp-word" title="くる- 来">こられる</span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -470,6 +488,8 @@ permalink: /grammar/causepass/
 <div class="sumbox">
 <div class="sumbox-title">使役被动活用形</div>
 
+ 使役被动动词就是将动词先活用为使役形，再在其基础上活用为被动形。
+ 例 
 1. <span class="jp-word" title="たべる - 吃">食べ<em>る</em></span> → <span class="jp-word" title="たべる - 吃">食べ<em>させる</em></span> → <span class="jp-word" title="たべる - 吃">食べさせ<em>られる</em></span>
 2. <span class="jp-word" title="いく - 走">行<em>く</em></span> → <span class="jp-word" title="いく - 走">行<em>かせる</em></span> → <span class="jp-word" title="いく - 走">行かせ<em>られる</em></span>
 </div>
@@ -509,6 +529,8 @@ permalink: /grammar/causepass/
 <div class="sumbox">
 <div class="sumbox-title">简短的使役被动形活用规则</div>
 
+ 首先把动词活用成简短的使役形，再在其基础上活用为被动形。
+ 例 
 1. <span class="jp-word" title="いく - 走">行<em>く</em></span> → <span class="jp-word" title="いく - 走">行<em>か</em></span> → <span class="jp-word" title="いく - 走">行か<em>す</em></span> → <span class="jp-word" title="いく - 走">行か<em>される</em></span>
 2. <span class="jp-word" title="たつ - 站立">立<em>つ</em></span> → <span class="jp-word" title="たつ - 站立">立<em>た</em></span> → <span class="jp-word" title="たつ - 站立">立た<em>す</em></span> → <span class="jp-word" title="たつ - 站立">立た<em>される</em></span>
 </div>
@@ -518,7 +540,9 @@ permalink: /grammar/causepass/
 <div class="sumbox">
 <div class="sumbox-title">不能如此活用的动词</div>
 
+ 类似下面的动词
 不能
+如此活用。 
 1. <span class="jp-word" title="食べる - 吃">食べ<em>る</em></span> → <span class="jp-word" title="食べる - 吃">食べ<em>さす</em></span> → <span class="jp-word" title="食べる - 吃">食べ<em>さされる</em></span>
 2. <span class="jp-word" title="話す - 说">話<em>す</em></span> → <span class="jp-word" title="話す - 说">話<em>さす</em></span> → <span class="jp-word" title="話す - 说">話<em>さされる</em></span>
 </div>

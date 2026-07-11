@@ -54,9 +54,11 @@ permalink: /grammar/potential/
 </div>
 
 <table class="jp-layout-table">
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
 <caption>示例る动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>可能形</th>
@@ -93,10 +95,12 @@ permalink: /grammar/potential/
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>る</em></span></td>
 <td><span class="jp-word" title="しらべる - 调查">調べ<em>られる</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td><table class="jp-grammar-table">
 <caption>示例う动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>可能形</th>
@@ -133,10 +137,12 @@ permalink: /grammar/potential/
 <td><span class="jp-word" title="かう- 买">買<em>う</em></span></td>
 <td><span class="jp-word" title="かう- 买">買<em>える</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
 <caption>例外动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>可能形</th>
@@ -149,8 +155,10 @@ permalink: /grammar/potential/
 <td><span class="jp-word" title="くる- 来">くる</span></td>
 <td><span class="jp-word" title="くる- 来">こられる</span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 对于る动词，也可以把「られる」简写为「れる」。例如，「<span class="jp-word" title="たべる - 吃">食べる</span>」的可能形可以是「<span class="jp-word" title="たべる - 吃">食べれる</span>」，这是「<span class="jp-word" title="たべる - 吃">食べられる</span>」的简写。但我建议还是先学习正式的活用方式「られる」，因为一旦养成了懒惰的习惯就很难改过来了，并且这种缩写虽然常用，却被认为是俚语。

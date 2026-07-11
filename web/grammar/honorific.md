@@ -56,6 +56,7 @@ permalink: /grammar/honorific/
 
 <table class="jp-grammar-table">
 <caption>尊敬语和谦逊语里的动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>尊敬语</th>
@@ -126,6 +127,7 @@ permalink: /grammar/honorific/
 <td><span class="jp-word" title="ごぞんじ（尊敬） - 知道">ご存知</span>（です）</td>
 <td><span class="jp-word" title="ぞんじる（谦逊） - 知道">存じる</span></td>
 </tr>
+</tbody>
 </table>
 
 ### 尊敬语动词的特殊活用规则
@@ -134,6 +136,7 @@ permalink: /grammar/honorific/
 
 <table class="jp-grammar-table">
 <caption>ます活用</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>字典形</th>
 <th>ます形</th>
@@ -176,6 +179,7 @@ permalink: /grammar/honorific/
 <td><span class="jp-word" title="ござる （正式） - 存在（无生命）">ござ<em>い</em>ません</span></td>
 <td><span class="jp-word" title="ござる （正式） - 存在（无生命）">ござ<em>い</em>ませんでした</span></td>
 </tr>
+</tbody>
 </table>
 
 ### 尊敬语示例

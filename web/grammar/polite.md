@@ -110,6 +110,7 @@ permalink: /grammar/polite/
 
 <table class="jp-grammar-table">
 <caption>示例单词「<span class="jp-word" title="あそぶ - 玩">遊び</span>」的活用表</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>ます活用形</th>
@@ -135,6 +136,7 @@ permalink: /grammar/polite/
 <td>ませんでした</td>
 <td><span class="jp-word" title="あそぶ - 玩">遊び<em>ませんでした</em></span></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
@@ -171,6 +173,7 @@ permalink: /grammar/polite/
 
 <table class="jp-grammar-table">
 <caption>い形容词（不能用だ）</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>口语</th>
@@ -196,10 +199,12 @@ permalink: /grammar/polite/
 <td><span class="jp-word" title="かわいい - 可爱">かわいくなかった</span></td>
 <td><span class="jp-word" title="かわいい - 可爱">かわいくなかった</span><em>です</em></td>
 </tr>
+</tbody>
 </table>
 
 <table class="jp-grammar-table">
 <caption>な形容词、名词（也许要去掉だ）</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>口语</th>
@@ -225,6 +230,7 @@ permalink: /grammar/polite/
 <td><span class="jp-word" title="しずか- 安静">静かじゃなかった</span></td>
 <td><span class="jp-word" title="しずか- 安静">静かじゃなかった</span><em>です</em></td>
 </tr>
+</tbody>
 </table>
 
 ※ 注意<u>只有</u>对于名词、な形容词的过去形，要用「でした」。一个常犯的错误就是把这规则也套用到い形容词去了。记住「<span class="jp-word" title="かわいい - 可爱">かわいい</span><em>でした</em>」是错的！
@@ -248,6 +254,7 @@ permalink: /grammar/polite/
 
 <table class="jp-grammar-table">
 <caption>一种更加正式的否定式活用</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>口语</th>
@@ -273,6 +280,7 @@ permalink: /grammar/polite/
 <td><span class="jp-word" title="しずか- 安静">静かじゃなかった</span></td>
 <td><span class="jp-word" title="しずか- 安静">静かじゃ</span><em>ありませんでした</em></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例

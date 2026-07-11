@@ -10,6 +10,7 @@ permalink: /grammar/in-transitive/
 
 <table class="jp-grammar-table">
 <caption>他动词和自动词</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th colspan="2">他动词</th>
 <th colspan="2">自动词</th>
@@ -62,6 +63,7 @@ permalink: /grammar/in-transitive/
 <td><span class="jp-word" title="ぬける - 被解开">抜ける</span></td>
 <td>被解开</td>
 </tr>
+</tbody>
 </table>
 
 ## 注意助词的选择！ {#part2}

@@ -54,6 +54,7 @@ permalink: /grammar/adjectives-ex/
 <div class="jp-exercise" id="exercise1">
 
 <table class="jp-practice-table" border="1" cellpadding="5">
+<tbody>
 <tr class="jp-grammar-row">
 <td>原形</td>
 <td>陈述形</td>
@@ -152,6 +153,7 @@ permalink: /grammar/adjectives-ex/
 <td class="jp-answerline"><span class="jp-hidex">大切だった</span></td>
 <td class="jp-answerline"><span class="jp-hidex">大切じゃなかった</span></td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">
@@ -173,6 +175,7 @@ permalink: /grammar/adjectives-ex/
 <div class="jp-exercise" id="exercise2">
 
 <table class="jp-practice-table jp-practice-grid" border="0">
+<tbody>
 <tr>
 <td>1.</td>
 </tr>
@@ -240,6 +243,7 @@ permalink: /grammar/adjectives-ex/
 <td class="jp-toggle">アリス） 昨日のテストは、よかった？<br>ボブ） ううん、<span class="jp-answerline">　　     　　</span>。</td>
 <td class="jp-toggle jp-toggle-answer">アリス） 昨日のテストは、よかった？<br>ボブ） ううん、<span class="jp-answerline">よくなかった</span>。</td>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox sumbox--center">

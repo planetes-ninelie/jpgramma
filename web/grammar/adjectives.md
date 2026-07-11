@@ -124,6 +124,7 @@ permalink: /grammar/adjectives/
   2. <span class="jp-word" title="たかい - 高；贵">高くな<em>い</em></span> → <span class="jp-word" title="たかい - 高；贵">高くな<em>かった</em></span>
 <table class="jp-grammar-table">
 <caption>い形容词活用规则总结</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>&#160;</th>
 <th>肯定</th>
@@ -139,6 +140,7 @@ permalink: /grammar/adjectives/
 <td><span class="jp-word" title="たかい - 高；贵">高かった</span></td>
 <td><span class="jp-word" title="たかい - 高；贵">高くなかった</span></td>
 </tr>
+</tbody>
 </table>
 
 </div>
@@ -179,6 +181,7 @@ permalink: /grammar/adjectives/
 
 <table class="jp-grammar-table">
 <caption>活用「<span class="jp-word" title="good">いい</span>」</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>&#160;</td>
 <th>肯定</th>
@@ -194,10 +197,12 @@ permalink: /grammar/adjectives/
 <td><span class="jp-word" title="いい - 好">よかった</span></td>
 <td><span class="jp-word" title="いい - 好">よくなかった</span></td>
 </tr>
+</tbody>
 </table>
 
 <table class="jp-grammar-table">
 <caption>活用「<span class="jp-word" title="かっこいい - 好看，酷">かっこいい</span>」</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <td>&#160;</td>
 <th>肯定</th>
@@ -213,6 +218,7 @@ permalink: /grammar/adjectives/
 <td><span class="jp-word" title="かっこいい - 好看，酷">かっこよかった</span></td>
 <td><span class="jp-word" title="かっこいい - 好看，酷">かっこよくなかった</span></td>
 </tr>
+</tbody>
 </table>
 
 注意要以「<span class="jp-word" title="よい - 好">よい</span>」为基础进行活用，而不是「<span class="jp-word" title="いい - 好">いい</span>」。

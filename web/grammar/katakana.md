@@ -12,6 +12,7 @@ permalink: /grammar/katakana/
 
 <table class="jp-kana-table jp-kana-stroke">
 <caption>片假名</caption>
+<tbody>
 <tr class="jp-kana-row">
 <th>n</th>
 <th>w</th>
@@ -96,6 +97,7 @@ permalink: /grammar/katakana/
 <td><a class="jp-stroke" href="#" data-char="o">オ</a></td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 * = 不再使用或罕用
@@ -146,6 +148,7 @@ permalink: /grammar/katakana/
 
 <table class="jp-grammar-table">
 <caption>额外的发音</caption>
+<tbody>
 <tr class="jp-grammar-row">
 <th>v</th>
 <th>w</th>
@@ -212,6 +215,7 @@ permalink: /grammar/katakana/
 <td>ショ</td>
 <th>o</th>
 </tr>
+</tbody>
 </table>
 
 <div class="sumbox">
@@ -228,6 +232,7 @@ permalink: /grammar/katakana/
 
 <table class="jp-grammar-table">
 <caption>片假名例词</caption>
+<tbody>
 <tr>
 <th><b>英语</b></th>
 <th><b>日语</b></th>
@@ -272,4 +277,5 @@ permalink: /grammar/katakana/
 <td>French fries</td>
 <td>フライドポテト (fried potato)</td>
 </tr>
+</tbody>
 </table>

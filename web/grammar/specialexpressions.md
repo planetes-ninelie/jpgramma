@@ -20,6 +20,6 @@ permalink: /grammar/specialexpressions/
 - [跟时间相关的动作](/grammar/timeactions/)
 - [表达保持现状](/grammar/nochange/)
 
-复习以及更多的句尾助词
+[复习以及更多的句尾助词](/grammar/sentence-ending/)
 
-使役动词和被动词
+[使役动词和被动词](/grammar/causepass/)

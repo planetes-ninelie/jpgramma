@@ -88,8 +88,10 @@ permalink: /grammar/compound/
 
 <table class="jp-layout-table">
 <caption>活用示例</caption>
+<tbody>
 <tr>
 <td><table class="jp-grammar-table">
+<tbody>
 <tr>
 <th>过去形</th>
 <th>て形</th>
@@ -114,9 +116,11 @@ permalink: /grammar/compound/
 <td><span class="jp-word" title="のむ - 喝">飲ん<em>だ</em></span></td>
 <td><span class="jp-word" title="のむ - 喝">飲ん<em>で</em></span></td>
 </tr>
+</tbody>
 </table></td>
 <td rowspan="2">&#160;</td>
 <td valign="top"><table class="jp-grammar-table">
+<tbody>
 <tr>
 <th>否定式</th>
 <th>て形</th>
@@ -141,8 +145,10 @@ permalink: /grammar/compound/
 <td><span class="jp-word" title="のむ - 喝">飲まな<em>い</em></span></td>
 <td><span class="jp-word" title="のむ - 喝">飲まな<em>くて</em></span></td>
 </tr>
+</tbody>
 </table></td>
 </tr>
+</tbody>
 </table>
 
 ### 示例
