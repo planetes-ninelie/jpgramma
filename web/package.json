@@ -4,7 +4,7 @@
   "description": "日语语法指南站点",
   "type": "module",
   "scripts": {
-    "crawl": "python3 ../crawler/scrape.py",
+    "convert": "python3 ../converter/convert.py",
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build .",
     "docs:preview": "vuepress preview ."

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""抓取 Tae Kim 日语语法指南（中文译本）并转换为 Markdown。"""
+"""从 pizzamx/jpgramma 源码仓库将 HTML 转换为 Markdown。"""
 
 from __future__ import annotations
-
-import time
 
 from appendix import (
     appendix_to_markdown,
@@ -13,15 +11,21 @@ from appendix import (
     write_search_meta,
     write_sidebar_config,
 )
-from config import LINK_PREFIX, WEB_DIR
-from fetch import collect_stroke_chars, download_stroke_assets, fetch_html
+from config import LINK_PREFIX, SOURCE_DIR, WEB_DIR
 from page import page_to_markdown
+from source import collect_stroke_chars, copy_stroke_assets, read_html
 
 
-def scrape() -> None:
-    print("正在获取目录页…")
-    index_html = fetch_html("index.html")
-    appendix_html = fetch_html("appendix.html")
+def convert() -> None:
+    if not SOURCE_DIR.is_dir():
+        raise SystemExit(
+            f"源码目录不存在: {SOURCE_DIR}\n"
+            "请先执行: git submodule update --init --recursive"
+        )
+
+    print("正在读取源码目录…")
+    index_html = read_html("index.html")
+    appendix_html = read_html("appendix.html")
 
     slugs = collect_page_slugs(index_html, appendix_html)
     print(f"共发现 {len(slugs)} 个内容页面")
@@ -51,12 +55,11 @@ def scrape() -> None:
         out = WEB_DIR / f"{slug}.md"
         try:
             print(f"[{i}/{len(slugs)}] {slug}")
-            html = fetch_html(f"{slug}.html")
+            html = read_html(f"{slug}.html")
             stroke_chars.update(collect_stroke_chars(html))
             _, md = page_to_markdown(html, slug)
             out.write_text(md, encoding="utf-8")
             ok += 1
-            time.sleep(0.35)
         except Exception as exc:  # noqa: BLE001
             failed.append((slug, str(exc)))
             print(f"  ! 失败: {exc}")
@@ -66,8 +69,8 @@ def scrape() -> None:
         for slug, err in failed:
             print(f"  - {slug}: {err}")
 
-    download_stroke_assets(stroke_chars)
+    copy_stroke_assets(stroke_chars)
 
 
 if __name__ == "__main__":
-    scrape()
+    convert()

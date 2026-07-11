@@ -149,6 +149,20 @@ def render_html_table_cell(cell: Tag, kind: str) -> str:
     return f"<{tag}{class_attr}{cell_extra_attrs(cell)}>{content}</{tag}>"
 
 
+def collect_table_rows(table: Tag) -> list[Tag]:
+    """收集表格行，兼容 <tr> 直接挂在 table 下或包在 thead/tbody/tfoot 中。"""
+    rows: list[Tag] = []
+    for child in table.children:
+        if not isinstance(child, Tag):
+            continue
+        name = child.name.lower()
+        if name == "tr":
+            rows.append(child)
+        elif name in {"thead", "tbody", "tfoot"}:
+            rows.extend(child.find_all("tr", recursive=False))
+    return rows
+
+
 def render_html_table_open(table: Tag, kind: str) -> str:
     cls = TABLE_KIND_CLASSES[kind]
     attrs = [f'class="{cls}"']
@@ -171,16 +185,23 @@ def render_html_table(table: Tag, kind: str) -> str:
         if cap:
             lines.append(f"<caption>{cap}</caption>")
 
-    for tr in table.find_all("tr", recursive=False):
+    # Vue/Vite 要求 <tr> 必须位于 <tbody>/<thead>/<tfoot> 内，否则会警告
+    row_lines: list[str] = []
+    for tr in collect_table_rows(table):
         cells = tr.find_all(["th", "td"], recursive=False)
         if not cells:
             continue
         row_cls = table_row_class(tr, kind)
         row_attr = f' class="{row_cls}"' if row_cls else ""
-        lines.append(f"<tr{row_attr}>")
+        row_lines.append(f"<tr{row_attr}>")
         for cell in cells:
-            lines.append(render_html_table_cell(cell, kind))
-        lines.append("</tr>")
+            row_lines.append(render_html_table_cell(cell, kind))
+        row_lines.append("</tr>")
+
+    if row_lines:
+        lines.append("<tbody>")
+        lines.extend(row_lines)
+        lines.append("</tbody>")
 
     lines.append("</table>")
     return "\n".join(lines) + "\n"
@@ -192,7 +213,7 @@ def render_table(table: Tag) -> str:
         return render_html_table(table, kind)
 
     rows: list[list[str]] = []
-    for tr in table.find_all("tr", recursive=False):
+    for tr in collect_table_rows(table):
         cells = tr.find_all(["th", "td"], recursive=False)
         if not cells:
             continue
