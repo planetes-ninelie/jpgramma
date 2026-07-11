@@ -13,9 +13,8 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: plumeTheme({
     hostname: 'https://planetes-ninelie.github.io',
-    docsRepo: 'https://github.com/planetes-ninelie/jpgramma',
-    docsBranch: 'master',
-    docsDir: 'web/grammar',
+    editLink: false,
+    contributors: false,
     autoFrontmatter: {
       permalink: 'filepath',
       createTime: false,

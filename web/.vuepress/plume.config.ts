@@ -35,8 +35,9 @@ export default defineThemeConfig({
   ],
   footer: {
     message:
-      '内容转载自 <a href="https://res.wokanxing.info/jpgramma/" target="_blank" rel="noopener noreferrer">res.wokanxing.info/jpgramma</a> · 仅供非商业学习交流',
-    copyright: '原文 Tae Kim · 译者 pizzamx · 本站排版整理',
+      '内容转载自 <a href="https://res.wokanxing.info/jpgramma/" target="_blank" rel="noopener noreferrer">原站</a> · 源码仓库 <a href="https://github.com/pizzamx/jpgramma" target="_blank" rel="noopener noreferrer">pizzamx/jpgramma</a> · 仅供非商业学习交流',
+    copyright:
+      '原文 Tae Kim · 译者 <a href="https://github.com/pizzamx/jpgramma" target="_blank" rel="noopener noreferrer">pizzamx</a> · 本站排版整理',
   },
   prevPage: true,
   nextPage: true,
