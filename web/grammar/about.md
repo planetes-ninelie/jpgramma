@@ -12,15 +12,15 @@ permalink: /grammar/about/
 | 项目 | 说明 |
 | --- | --- |
 | **原文** | [Tae Kim - *Japanese Grammar Guide*](http://guidetojapanese.org/learn/grammar) |
-| **中文译本** | 译者 [pizzamx](http://wokanxing.info) |
+| **中文译本** | [pizzamx/jpgramma](https://github.com/pizzamx/jpgramma)（译者 [pizzamx](http://wokanxing.info)） |
 | **原发布站点** | [res.wokanxing.info/jpgramma](https://res.wokanxing.info/jpgramma/) |
 | **许可协议** | [CC BY-NC-SA 3.0（署名-非商业性使用-相同方式共享）](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh) |
 
-教程正文中的译者注、例句与章节结构均来自上述译本；本站爬虫定期同步源站内容，并转换为更便于查阅的网页格式。
+教程正文中的译者注、例句与章节结构均来自上述译本；本站从上游源码仓库同步 HTML，并转换为更便于查阅的网页格式。
 
 ## 本站做了什么
 
-- 抓取并转换原站 HTML 为 Markdown
+- 从上游源码仓库读取 HTML 并转换为 Markdown
 - 使用 [vuepress-theme-plume](https://theme-plume.vuejs.press/) 重新排版
 - 提供全文搜索、侧边栏目录与五十音语法索引
 
