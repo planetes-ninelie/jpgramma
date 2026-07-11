@@ -9,7 +9,27 @@
   "MD029": false,
   "MD032": false,
   "MD033": {
-    "allowed_elements": ["span", "br", "div", "iframe"]
+    "allowed_elements": [
+      "a",
+      "b",
+      "br",
+      "caption",
+      "div",
+      "em",
+      "i",
+      "iframe",
+      "li",
+      "ol",
+      "span",
+      "strong",
+      "table",
+      "tbody",
+      "td",
+      "th",
+      "tr",
+      "u",
+      "ul"
+    ]
   },
   "MD042": false,
   "MD056": false,
